@@ -20,15 +20,15 @@ class CoStirpatGame:
        
         # Model Coefficients (Sensitivity variables)
         self.a = 0.01
-        self.b = 1.2     # Population scaling
-        self.c = 1.5     # Affluence scaling
-        self.d = 1.0     # Technology scaling
+        self.b = 1.0     # Population scaling
+        self.c = 1.2     # Affluence scaling
+        self.d = 0.8     # Technology scaling
         self.e = -0.8    # Cooperation scaling (negative means reduction)
        
         # Game Target Metrics
         self.accumulated_carbon = 0.0
-        self.carbon_budget = 1200.0
-        self.budget = 1000          
+        self.carbon_budget = 2000.0
+        self.budget = 2000          
        
         # History Tracking for Visualization
         self.history = []
