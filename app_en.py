@@ -124,7 +124,7 @@ class CoStirpatGame:
 # ==============================================================================
 st.set_page_config(page_title="CO-STIRPAT Climate Simulator", layout="wide")
 
-st.title("🌱 CO-STIRPAT Climate Governance Game")
+st.title("🌱 JIN: CO-STIRPAT Climate Governance")
 st.caption("Control the non-linear dynamics of Population(P), Affluence(A), Technology(T), and Cooperation(CO) to prevent climate tipping points.")
 
 # Initialize game instance within Streamlit session state if not existing
