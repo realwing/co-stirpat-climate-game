@@ -8,7 +8,7 @@ import pandas as pd
 class CoStirpatGame:
     def __init__(self):
         self.turn = 1
-        self.max_turns = 5
+        self.max_turns = 10
         self.game_over = False
         self.game_result_message = ""
        
@@ -64,19 +64,19 @@ class CoStirpatGame:
         return {
             1: {
                 "title": "🏭 Expand Legacy Industrial Complex",
-                "cost": -200,
+                "cost": -20,
                 "effect": {"P": 1.05, "A": 1.30, "T": 1.05, "CO": 1.0},
                 "desc": "Boosts economic growth (A↑) rapidly, but accelerates carbon intensity (T↑) due to legacy infrastructure integration."
             },
             2: {
                 "title": "🔋 Deploy Distributed Energy Zone & dMRV",
-                "cost": -400,
+                "cost": -40,
                 "effect": {"P": 1.0, "A": 1.05, "T": 0.72, "CO": 1.2},
                 "desc": "Requires high capital expenditure but radically optimizes technical efficiency (T↓↓) and builds verifiable offset mechanisms."
             },
             3: {
                 "title": "🌐 Sign Multilateral Climate Accord",
-                "cost": -100,
+                "cost": -10,
                 "effect": {"P": 1.0, "A": 0.95, "T": 1.0, "CO": 1.6},
                 "desc": "Strengthens global framework cooperation (CO↑↑) to suppress systemic scaling, though strict regulations temporarily cool down domestic growth."
             }
